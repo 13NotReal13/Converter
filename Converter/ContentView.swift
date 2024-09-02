@@ -12,7 +12,7 @@ import Foundation
 
 struct ContentView: View {
     @State private var inputValue: Double = 0
-    @State private var inputType: UnitLength = .centimeters
+    @State private var inputType: UnitLength = .meters
     @State private var outputType: UnitLength = .kilometers
     
     private let typesOfLengths: [UnitLength] = [.meters, .kilometers, .feet, .yards, .miles]
